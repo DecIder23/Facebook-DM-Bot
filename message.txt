@@ -1,1 +1,2 @@
- How are you? I hope you're doing well. Are you currently involved in any business?
+Type message you want to send
+hi.................
