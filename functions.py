@@ -40,10 +40,7 @@ def get_chrome_options():
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--start-maximized')
     
-    # Additional stealth options
-    options.add_argument('--disable-web-security')
-    options.add_argument('--disable-features=VizDisplayCompositor')
-    options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36')
+   
     
     return options
 
